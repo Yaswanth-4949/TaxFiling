@@ -40,6 +40,43 @@ body {
 .navbar ul li a:hover {
     color: #f0a500;
 }
+/* Centering Sections */
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    width: 100%;
+}
+
+section {
+    width: 100%;
+    max-width: 900px;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 300px;
+}
+
+section h2 {
+    font-size: 2em;
+    color: #333;
+}
+
+section p {
+    font-size: 1.2em;
+    color: #555;
+    line-height: 1.5;
+}
+
 
 /* WhatsApp Icon Styling */
 .whatsapp-icon {
